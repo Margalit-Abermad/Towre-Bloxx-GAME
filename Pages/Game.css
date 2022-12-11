@@ -1,0 +1,33 @@
+*{
+    font-family: myFontGame;
+}
+
+@font-face {
+    font-family: myFontGame;
+    src: url(HennyPenny-Regular.ttf);
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+  }
+
+#video_first{
+    width: 100%;
+}
+
+video{
+    width: 100%;
+}
+
+/* #video{
+    position: absolute;
+    width: 80%;
+} */
+
+/* audio{
+   display: none; 
+} */
+
+
+

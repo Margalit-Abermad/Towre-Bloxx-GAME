@@ -1,0 +1,62 @@
+
+/* *{
+    font-family: myFontGame;
+} */
+
+@font-face {
+    font-family: myFontGame;
+    src: url(HennyPenny-Regular.ttf);
+}
+
+#background{
+        width: 1511px;
+        height: 100%;   
+        bottom: 0px;
+        z-index: 5;
+      }
+#counter{
+    position: fixed;
+    top:20px;
+    right: 50px;
+    color: black;
+
+}
+
+#Lives, #score,#Bloxx{
+    position: sticky;
+    font-size: 30px;
+    right: 50px;
+}
+
+#lives1, #score1,#bloxx1{
+    position: sticky;
+    font-size: 30px;
+    right: 30px;
+}
+
+
+.slideBottom {
+    position: fixed;
+    width: 500px;
+    height: 600px ;
+    left: 500px;
+    right:600px;
+    top: -60px;
+}
+
+#over{
+    font-family: myFontGame;
+    font-size: 200px;
+    position: fixed;
+    top: 250px;
+    left: 260px;
+    display: none;
+    /* z-index: 999; */
+}
+
+
+
+
+
+
+

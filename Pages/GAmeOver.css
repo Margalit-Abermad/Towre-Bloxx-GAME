@@ -1,0 +1,9 @@
+@font-face {
+    font-family: myFontGame;
+    src: url(HennyPenny-Regular.ttf);
+}
+
+div{
+    font-family: myFontGame ;
+}
+

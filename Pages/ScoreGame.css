@@ -1,0 +1,125 @@
+@font-face {
+    font-family: FontGame;
+    src: url(..//images/HennyPenny-Regular.ttf);
+}
+
+@font-face {
+    font-family: HeberFont;
+    src: url(..//images/Arimo-VariableFont_wght.ttf);
+}
+
+/* @font-face {
+    font-family: HeberFont;
+    src: url(..//images/Assistant-Medium.ttf);
+} */
+
+
+img{
+    position: absolute;
+    width: 99%;
+    height: 98%;
+}
+
+#div{
+    position: absolute;
+background-color: black;
+opacity: 30%;
+width: 85%;
+height: 80%;
+left: 7.5%;
+/* right: 50%; */
+top: 10%;
+/* bottom: 50%; */
+}
+h1{
+    position: absolute;
+    color: rgb(255, 217, 0);
+    /* top: 0%;
+    left: 2%; */
+    top: 5%;
+    left: 9%;
+    font-family: FontGame;
+    font-size: 350%;
+}
+
+/* h2{
+    position: absolute;
+
+} */
+
+#numOfGame{
+    position: absolute;
+    margin: 10%;
+    right: 5%;
+    font-size: 250%; 
+    font-family: HeberFont;
+    color: rgb(29, 29, 1);
+    padding: 2%;
+}
+#maxScore{
+    position: absolute;
+    margin: 10%;
+    right: 5%;
+    font-size: 250%; 
+    font-family: HeberFont;
+    color: rgb(29, 29, 1);
+    padding: 2%;
+}
+#score{
+    position: absolute;
+    margin: 10%;
+    right: 5%;
+    font-size: 250%; 
+    font-family: HeberFont;
+    color: rgb(29, 29, 1);
+    padding: 2%;
+}
+
+#bloxx{
+    position: absolute;
+    margin: 10%;
+    right: 5%;
+    font-size: 250%; 
+    font-family: HeberFont;
+    color: rgb(29, 29, 1);
+    padding: 2%;
+}
+
+#maxBloxx{
+    position: absolute;
+    margin: 10%;
+    right: 5%;
+    font-size: 250%; 
+    font-family: HeberFont;
+    color: rgb(29, 29, 1);
+    padding: 2%;
+}
+
+.button {
+    position: absolute;
+    width: 300px;
+    left: 40%;
+    right: 60%;
+    bottom: 100px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04779b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    font-family: FontGame;
+}
+
+.button:hover {background-color: #04779b}
+
+.button:active {
+  background-color: #04779b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
